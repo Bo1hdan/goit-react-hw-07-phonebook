@@ -11,7 +11,6 @@ export const Filter = () => {
 
   return (
     <label htmlFor="filter" className={css.label}>
-      Find contacts by name
       <input
         className={css.input}
         type="text"
