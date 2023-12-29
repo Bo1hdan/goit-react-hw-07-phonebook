@@ -1,4 +1,4 @@
-import css from './Title.module.css';
+import css from 'components/ContactForm/ContactForm.module.css';
 import PropTypes from 'prop-types';
 
 export const Title = ({ children }) => {

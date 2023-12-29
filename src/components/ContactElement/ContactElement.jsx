@@ -1,4 +1,4 @@
-import css from './ContactElement.module.css';
+import css from 'components/ContactForm/ContactForm.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { deleteContact as deleteContactInfo } from 'redux/contacts/operations';
 import { selectFilteredContacts } from 'redux/contacts/selectors';

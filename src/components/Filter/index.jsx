@@ -1,4 +1,4 @@
-import css from './Filter.module.css';
+import css from 'components/ContactForm/ContactForm.module.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { filteredContacts } from 'redux/filter/slice';
 import { selectFilter } from 'redux/filter/selectors';

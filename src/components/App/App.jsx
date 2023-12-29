@@ -6,7 +6,7 @@ import { ContactElement } from 'components/ContactElement/ContactElement';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchContacts } from 'redux/contacts/operations';
 import { useEffect } from 'react';
-import css from './App.module.css';
+import css from 'components/ContactForm/ContactForm.module.css';
 
 export const App = () => {
   const dispatch = useDispatch();
@@ -16,7 +16,7 @@ export const App = () => {
   }, [dispatch]);
 
   return (
-    <div className={css.container}>
+    <div className={css.wrapper}>
       <Title>Phonebook</Title>
       <Input />
       <Title>Contacts</Title>

@@ -11,7 +11,8 @@ button {
   display: block;
 }
 label {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 ul {
   list-style: none;
